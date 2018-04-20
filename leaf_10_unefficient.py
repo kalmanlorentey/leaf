@@ -1,18 +1,18 @@
 from turtle import *
 import random
-bgcolor('grey')
+bgcolor('black')
 #speed(0)
 tracer(0, 0)
 a,b,c=0,0,0
-backward(750)
+backward(760)
 while b<16000:
 	a=a+1+c
-	values=(1,0,0,0,0,0,-1)
+	values=(1,0,0,0,0,0,0,-1)
 	q=(random.choice(values))
 	if a>17:
 		up()
 		home()
-		backward(750)
+		backward(760)
 		down()
 		a=1
 		b=b+1
