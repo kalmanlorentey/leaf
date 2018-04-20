@@ -1,6 +1,6 @@
 from turtle import *
 import random
-bgcolor('black')
+bgcolor('grey')
 #speed(0)
 tracer(0, 0)
 a,b,c=0,0,0
